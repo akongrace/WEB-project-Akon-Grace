@@ -1,0 +1,147 @@
+
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8f0;
+  color: #333;
+}
+.header {
+  background: #ff4f81;
+  padding: 15px;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ a:hover {
+  color: #ffe066;
+}
+h1, h2 {
+  color: #ff4f81;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: center;
+}
+button {
+  background: #ff4f81;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e6005c;
+}
+
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border: 2px solid #ff4f81;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  background: #ffe6ef;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.collection {
+  display: incline-block;
+  margin: 20px;
+  text-align:center;
+  border : 1px solid #add
+  border-radius 10px;
+  padding:10px;
+  width:200px;
+
+}.image-card img {
+  transition: transform 0.3s ease; 
+}
+
+.image-card img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+
+.image-card {
+  display: flex;             
+  align-items: center;        
+  margin-bottom: 20px;        
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+
+.image-card img {
+  width: 150px;
+  height: auto;
+  border-radius: 6px;
+  margin-right: 15px;
+  transition: transform 0.3s ease;  
+}
+
+
+.image-card img:hover {
+  transform: scale(1.05); 
+  cursor: pointer;
+}
+
+
+.image-card p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+
+.image-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
